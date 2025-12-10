@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso de iframes</title>
+</head>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    iframe {
+        width: 90vw;
+        height: 400px;
+        border: 1px solid black;
+    }
+</style>
+<body>
+    <h1>Faça uma escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam explicabo consectetur vero quia obcaecati, neque beatae porro fugit blanditiis ipsam a, unde labore placeat cupiditate iusto nisi rerum deserunt saepe!</p>
+
+    <ul>
+        <li><a href="pagina01.html" target="iframe">Primeira página</a></li>
+        <li><a href="pagina002.html" target="iframe">Segunda página</a></li>
+        <li><a href="pagina003.html" target="iframe">Terceira página</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci omnis quidem, ab incidunt laudantium quos aliquam qui perspiciatis veniam exercitationem quas cum itaque provident vitae aspernatur corrupti nihil sunt? Libero. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti, atque at in earum, numquam iste soluta accusantium mollitia minus accusamus pariatur facere non ut explicabo quia asperiores culpa, incidunt molestias.</p>
+
+    <iframe srcdoc="<h1>Escolha uma das opções acima</h1>" frameborder="1" name="iframe">
+        <p>Não é compativel</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim dolores dolorum corrupti omnis? Nihil eaque tenetur sequi iusto atque aut consequuntur quidem, illo cum dolor alias rerum a, ducimus optio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus deserunt neque sed numquam? Ut quis rem vel totam vitae molestiae minus numquam voluptates repellat, accusamus temporibus iure! Similique, recusandae natus.</p>
+</body>
+</html>
