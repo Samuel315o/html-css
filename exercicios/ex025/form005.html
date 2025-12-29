@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <input type="radio" name="sexo" id="masculino">
+            <label for="masculino">Masculino</label> <br>
+            <input type="radio" name="sexo" id="feminino">
+            <label for="feminino">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Qual a sua área?</legend>
+            <input type="checkbox" name="devWeb" id="devWeb"> <label for="devWeb">Desenvolvimento web</label> <br>
+            <input type="checkbox" name="devMobile" id="devMobile"> <label for="devMobile">Desenvolvimento mobile</label> <br>
+            <input type="checkbox" name="devJogos" id="devJogos"> <label for="devJogos">Desenvolvimento de jogos</label>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
